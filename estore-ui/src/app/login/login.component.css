@@ -1,0 +1,40 @@
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 20em;
+    height: 20em;
+    vertical-align: top;
+}
+
+form {
+    text-align: left;
+    font-size: 16px;
+}
+
+.login{
+    margin: auto;
+    text-align: center;
+}
+
+.loggedIn {
+    padding: 0.5em 0 0.5em;
+}
+
+input[type=text] {
+    padding: 12px 12px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    height: 20px;
+    border-radius: 12px;
+}
+
+input[type=password] {
+    padding: 12px 12px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    height: 20px;
+    border-radius: 12px;
+}

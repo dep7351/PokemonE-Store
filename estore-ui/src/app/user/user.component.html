@@ -1,0 +1,12 @@
+<nav class="tabs">
+    <button [class.selected]="ACCOUNT" (click)="account()">Account Info</button>
+    <button [class.selected]="HISTORY" (click)="history()">Order History</button>
+</nav>
+<div *ngIf="ACCOUNT">
+    <app-display-user-info></app-display-user-info>
+    <app-change-password-form></app-change-password-form>
+</div>
+<div *ngIf="HISTORY">
+    <app-order-history [orderHistory]="orderHistory"></app-order-history>
+</div>
+

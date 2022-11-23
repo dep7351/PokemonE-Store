@@ -1,0 +1,23 @@
+.td {
+    padding-right: 200px;
+}
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 30em;
+    height: 10em;
+    vertical-align: top;
+}
+
+.cardImage {
+    float: left;
+    padding-right: 0.5em;
+    margin-left: 0.1em;
+}
+
+p {
+    margin-top: 0.5em;
+}

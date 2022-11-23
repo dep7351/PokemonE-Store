@@ -1,14 +1,49 @@
 {
-  "purchaseCount" : 0,
-  "loginCount" : 0,
-  "totalPurchaseAmt" : 0.0,
-  "avgPurchaseAmt" : 0.0,
-  "productPurchaseAmts" : { },
-  "fiveMostPopular" : [ 0, 0, 0, 0, 0 ],
+  "purchaseCount" : 1,
+  "totalPurchaseAmt" : 4967.75,
+  "avgPurchaseAmt" : 4967.75,
+  "productPurchaseAmts" : {
+    "16" : 1,
+    "21" : 1,
+    "22" : 1,
+    "25" : 1,
+    "10" : 1
+  },
+  "fiveMostPopular" : [ 16, 0, 0, 0, 0 ],
   "fiveMostExpensiveOrders" : [ {
-    "id" : 0,
-    "contents" : [ ],
-    "totalPrice" : 0.0
+    "id" : 5,
+    "contents" : [ {
+      "id" : 10,
+      "name" : "Pikachu",
+      "types" : [ "ELECTRIC" ],
+      "quantity" : 1,
+      "price" : 260.0
+    }, {
+      "id" : 22,
+      "name" : "Charmander",
+      "types" : [ "FIRE" ],
+      "quantity" : 1,
+      "price" : 4690.0
+    }, {
+      "id" : 25,
+      "name" : "Abra",
+      "types" : [ "PSYCHIC" ],
+      "quantity" : 1,
+      "price" : 1.0
+    }, {
+      "id" : 21,
+      "name" : "Diglett",
+      "types" : [ "FIGHTING" ],
+      "quantity" : 1,
+      "price" : 16.5
+    }, {
+      "id" : 16,
+      "name" : "Machop",
+      "types" : [ "FIGHTING" ],
+      "quantity" : 1,
+      "price" : 0.25
+    } ],
+    "totalPrice" : 4967.75
   }, {
     "id" : 0,
     "contents" : [ ],
@@ -26,8 +61,13 @@
     "contents" : [ ],
     "totalPrice" : 0.0
   } ],
-  "mostPopularType" : null,
-  "typeRevenue" : { },
-  "totalSessionTime" : 0.0,
-  "avgSessionTime" : 0.0
+  "mostPopularType" : "FIGHTING",
+  "typeRevenue" : {
+    "FIGHTING" : 16.75,
+    "PSYCHIC" : 1.0,
+    "FIRE" : 4690.0,
+    "ELECTRIC" : 260.0
+  },
+  "totalSessionTime" : 5.6723666,
+  "avgSessionTime" : 5.6723666
 }

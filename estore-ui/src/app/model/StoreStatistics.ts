@@ -5,7 +5,7 @@ export interface StoreStatistics {
     averagePurchaseAmt: number;
     mostPopularProducts: number[];
     mostExpensiveCarts: ShoppingCart[];
-    mostPopType: String;
+    mostPopularType: String;
     typeRevenue: Map<String, number>;
     avgSessionTime: number;
 }

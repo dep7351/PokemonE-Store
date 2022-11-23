@@ -1,1 +1,40 @@
-[ ]
+[ {
+  "id" : 5,
+  "purchasedCart" : {
+    "id" : 5,
+    "contents" : [ {
+      "id" : 21,
+      "name" : "Diglett",
+      "types" : [ "FIGHTING" ],
+      "quantity" : 1,
+      "price" : 16.5
+    }, {
+      "id" : 25,
+      "name" : "Abra",
+      "types" : [ "PSYCHIC" ],
+      "quantity" : 1,
+      "price" : 1.0
+    }, {
+      "id" : 16,
+      "name" : "Machop",
+      "types" : [ "FIGHTING" ],
+      "quantity" : 1,
+      "price" : 0.25
+    }, {
+      "id" : 22,
+      "name" : "Charmander",
+      "types" : [ "FIRE" ],
+      "quantity" : 1,
+      "price" : 4690.0
+    }, {
+      "id" : 10,
+      "name" : "Pikachu",
+      "types" : [ "ELECTRIC" ],
+      "quantity" : 1,
+      "price" : 260.0
+    } ],
+    "totalPrice" : 4967.75
+  },
+  "orderNumber" : 1,
+  "timeStamp" : "11/23/2022 01:26:52"
+} ]

@@ -56,7 +56,7 @@
   "id" : 10,
   "name" : "Pikachu",
   "types" : [ "ELECTRIC" ],
-  "quantity" : 15,
+  "quantity" : 14,
   "price" : 260.0
 }, {
   "id" : 11,
@@ -92,7 +92,7 @@
   "id" : 16,
   "name" : "Machop",
   "types" : [ "FIGHTING" ],
-  "quantity" : 490,
+  "quantity" : 489,
   "price" : 0.25
 }, {
   "id" : 17,
@@ -122,13 +122,13 @@
   "id" : 21,
   "name" : "Diglett",
   "types" : [ "FIGHTING" ],
-  "quantity" : 57,
+  "quantity" : 56,
   "price" : 16.5
 }, {
   "id" : 22,
   "name" : "Charmander",
   "types" : [ "FIRE" ],
-  "quantity" : 14,
+  "quantity" : 13,
   "price" : 4690.0
 }, {
   "id" : 23,
@@ -146,7 +146,7 @@
   "id" : 25,
   "name" : "Abra",
   "types" : [ "PSYCHIC" ],
-  "quantity" : 45,
+  "quantity" : 44,
   "price" : 1.0
 }, {
   "id" : 26,
